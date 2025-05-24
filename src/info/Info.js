@@ -27,10 +27,10 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Ibrohim",
+    lastName: "Ruzmetov",
+    initials: "ML", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a Full Stack Developer & Data Scientist", // this is the title that will be displayed on the homepage
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -41,40 +41,30 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the UZB'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Full stack developer & Data Scientist"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "Thatweix@gmail.com"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+            link: "https://instagram.com/Ibrokhim_rm",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/Rub4ik",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
+            link: "https://twitter.com/Thatweix",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -82,28 +72,28 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Ibrohim Ruzmetov. I'm a Full stack developers & Data scientist. I studied Computer science at WSEI, I enjoy coding, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['JavaScript', 'React', 'Git', 'Github', 'Bootstrap', 'HTML5', 'CSS3', 'scikit-learn', 'Tensorflow', 'Pandas', 'NumPy', 'Flask', 'Django'],
+            exposedTo: ['NodeJS', 'Python', 'Adobe photoshop']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'Coding',
             emoji: '📖'
         },
         {
-            label: 'theater',
+            label: 'Cinema',
             emoji: '🎭'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'Cooking',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
